@@ -3,5 +3,5 @@ main = "worker.js"
 compatibility_date = "2024-03-20"
 
 [vars]
-TELEGRAM_BOT_TOKEN = "your_bot_token_here"
+TELEGRAM_BOT_TOKEN = "9287929910:AAHBdICbfdO-rEk1KDxZQEhNumZg2CyLV08"
 HOST_URL = "https://trackdown-v2.hafiztechnology11.workers.dev"
