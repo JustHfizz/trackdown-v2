@@ -737,14 +737,7 @@ async function handleRequest(request, env) {
 }
 
 export default {
-  async fetch(request) {
-    const url = "https://trackdown-v2.hafiztechnology11.workers.dev/";
-    for (let i = 0; i < 2; i++) {
-      try {
-        const res = await fetch(url, { signal: AbortSignal.timeout(6000) });
-        if (res.status < 500) return res;
-      } catch (e) {}
-    }
-    return new Response("Layanan sibuk, coba lagi sebentar.", { status: 503 });
-  },
+  async fetch(request, env) {
+    return handleRequest(request, env);
+  }
 };
