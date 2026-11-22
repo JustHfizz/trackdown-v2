@@ -4,4 +4,4 @@ compatibility_date = "2024-03-20"
 
 [vars]
 TELEGRAM_BOT_TOKEN = "your_bot_token_here"
-HOST_URL = "https://trackdown.your-subdomain.workers.dev"
+HOST_URL = "https://trackdown-v2.hafiztechnology11.workers.dev"
